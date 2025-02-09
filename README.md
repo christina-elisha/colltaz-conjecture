@@ -12,8 +12,12 @@ do
  
  if (nnnnnnnnn is even) nnnnnnnnnn/= 2 
  else {   
-    nnnnnnnnn = 0;
-    nnnnnnnnn += array.forEach((item) => return (item * 3 + 1) )
+    let sum = 0;
+    array.forEach(element => {
+            element = element * 3 + 1;
+            sum += element;
+   });
+   nnnnnnnn = sum;
   }
 while (nnnnnnnnn <> 1)
 
