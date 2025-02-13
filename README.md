@@ -5,13 +5,8 @@ Colltaz Conjecture(1937) proposes this: any positive number following the transf
 if (number is even) number /= 2
 else number = number*3 + 1
 
-//idea: any positive number can be composed of
-// nnnnnnnnn = array [ppp + ppp + ppp + ppp]
-//  23456789 = 999 + 999 + 999 + 999 + 999 + ...
-
 /*
   it has been shown in computation that colltaz conjecture holds for number 10^20.
-  
 */
 
 do 
@@ -34,4 +29,5 @@ study the sequence.
 
 is the sequence go down eventually?
 when nnnnnn is even, sequence goes down by nnnnnn/2
-when nnnnnn is odd, sequence is wild
+when nnnnnn is odd, sequence pattern seems not straight. it goes up wildly.
+prove it will eventually go under nnnnnn will prove Colltaz conjecture.
